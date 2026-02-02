@@ -1,0 +1,13 @@
+# 1. Ignore the Virtual Environment (Heavy & OS-specific)
+venv/
+
+# 2. Ignore the Database (It contains local data)
+instance/
+*.db
+
+# 3. Ignore Python Cache files (Junk files)
+__pycache__/
+*.pyc
+
+# 4. Ignore Mac System files (Optional but good)
+.DS_Store
